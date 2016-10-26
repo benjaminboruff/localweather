@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Local Weather</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.red-indigo.min.css" />
+    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+    <div class="mdl-layout mdl-js-layout">
+        <div class="mdl-layout__content">
+            <div class="mdl-grid">
+                <div class="mdl-layout-spacer"></div>
+                <div id="output" class="mdl-cell mdl-card mdl-shadow--4dp mdl-cell--8-col">
+                    <div class="mdl-card__title">
+                        <h2 id="fullLocation" class="mdl-card__title-text"> Local Weather </h2>
+                    </div>
+                    <div class="mdl-card__media">
+                        <img id="icon-url"></img>
+                    </div>
+                    <div id="weather" class="mdl-card__supporting-text">
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <button id="toggle-f-c" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"></button>
+                        <a href="https://www.wunderground.com">
+                            <img id="wu-logo"></img>
+                        </a>
+                    </div>
+                </div>
+                <div class="mdl-layout-spacer"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

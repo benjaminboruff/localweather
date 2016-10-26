@@ -1,0 +1,30 @@
+.mdl-grid {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.mdl-grid > .mdl-cell {
+  margin-top: 70px;
+  max-width: 450px;
+  max-height: 450px;
+  height: 450px;
+}
+
+#icon-url {
+  margin-left: 20%;
+  width: 256px;
+  height: 256px;
+  
+}
+
+#wu-logo {
+  margin-left: 38%;
+}
+
+.mdl-button {
+  width: 120px;
+}
+
+#weather {
+  margin-left: 40%;
+}
