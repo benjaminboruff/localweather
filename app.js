@@ -28,7 +28,6 @@ $().ready( function () {
           tempToggle = "F";
           $("#toggle-f-c").html(tempF);
         }
-        
       });
       $("#wu-logo").attr("src", wuIcon);
     });
